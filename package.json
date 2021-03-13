@@ -1,12 +1,11 @@
 {
-  "name": "@nativescript/template-hello-world-ng",
+  "name": "@fungdev/okula",
   "main": "main.js",
   "version": "7.0.10",
-  "author": "NativeScript Team <oss@nativescript.org>",
-  "description": "NativeScript Application",
-  "license": "SEE LICENSE IN <your-license-filename>",
+  "author": "Jonathan Fung",
+  "description": "Okula",
   "publishConfig": {
-    "access": "public"
+    "access": "restricted"
   },
   "keywords": [
     "nativescript",
@@ -15,9 +14,9 @@
     "{N}",
     "template"
   ],
-  "repository": "<fill-your-repository-here>",
+  "repository": "https://github.com/jonathanfung/okula",
   "bugs": {
-    "url": "https://github.com/NativeScript/NativeScript/issues"
+    "url": "https://github.com/jonathanfung/okula/issues"
   },
   "dependencies": {
     "@angular/animations": "~11.0.0",
@@ -42,6 +41,5 @@
     "@ngtools/webpack": "~11.0.0",
     "typescript": "~4.0.0"
   },
-  "private": "true",
-  "readme": "NativeScript Application"
+  "private": "true"
 }
